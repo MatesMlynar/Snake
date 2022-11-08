@@ -1,0 +1,32 @@
+C:\Users\Mike\source\repos\CP_2022-2023\Snake\bin\Debug\net5.0\Snake.exe
+C:\Users\Mike\source\repos\CP_2022-2023\Snake\bin\Debug\net5.0\Snake.deps.json
+C:\Users\Mike\source\repos\CP_2022-2023\Snake\bin\Debug\net5.0\Snake.runtimeconfig.json
+C:\Users\Mike\source\repos\CP_2022-2023\Snake\bin\Debug\net5.0\Snake.runtimeconfig.dev.json
+C:\Users\Mike\source\repos\CP_2022-2023\Snake\bin\Debug\net5.0\Snake.dll
+C:\Users\Mike\source\repos\CP_2022-2023\Snake\bin\Debug\net5.0\ref\Snake.dll
+C:\Users\Mike\source\repos\CP_2022-2023\Snake\bin\Debug\net5.0\Snake.pdb
+C:\Users\Mike\source\repos\CP_2022-2023\Snake\obj\Debug\net5.0\Snake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mike\source\repos\CP_2022-2023\Snake\obj\Debug\net5.0\Snake.AssemblyInfoInputs.cache
+C:\Users\Mike\source\repos\CP_2022-2023\Snake\obj\Debug\net5.0\Snake.AssemblyInfo.cs
+C:\Users\Mike\source\repos\CP_2022-2023\Snake\obj\Debug\net5.0\Snake.csproj.CoreCompileInputs.cache
+C:\Users\Mike\source\repos\CP_2022-2023\Snake\obj\Debug\net5.0\Snake.dll
+C:\Users\Mike\source\repos\CP_2022-2023\Snake\obj\Debug\net5.0\ref\Snake.dll
+C:\Users\Mike\source\repos\CP_2022-2023\Snake\obj\Debug\net5.0\Snake.pdb
+C:\Users\Mike\source\repos\CP_2022-2023\Snake\obj\Debug\net5.0\Snake.genruntimeconfig.cache
+C:\Users\Mike\source\repos\CP_2022-2023\Snake\obj\Debug\net5.0\Snake.csproj.AssemblyReference.cache
+C:\Users\Mlynář Matěj\Desktop\Škola\Programování\p. Janů\Snake\bin\Debug\net5.0\Snake.exe
+C:\Users\Mlynář Matěj\Desktop\Škola\Programování\p. Janů\Snake\bin\Debug\net5.0\Snake.deps.json
+C:\Users\Mlynář Matěj\Desktop\Škola\Programování\p. Janů\Snake\bin\Debug\net5.0\Snake.runtimeconfig.json
+C:\Users\Mlynář Matěj\Desktop\Škola\Programování\p. Janů\Snake\bin\Debug\net5.0\Snake.runtimeconfig.dev.json
+C:\Users\Mlynář Matěj\Desktop\Škola\Programování\p. Janů\Snake\bin\Debug\net5.0\Snake.dll
+C:\Users\Mlynář Matěj\Desktop\Škola\Programování\p. Janů\Snake\bin\Debug\net5.0\Snake.pdb
+C:\Users\Mlynář Matěj\Desktop\Škola\Programování\p. Janů\Snake\obj\Debug\net5.0\Snake.csproj.AssemblyReference.cache
+C:\Users\Mlynář Matěj\Desktop\Škola\Programování\p. Janů\Snake\obj\Debug\net5.0\Snake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mlynář Matěj\Desktop\Škola\Programování\p. Janů\Snake\obj\Debug\net5.0\Snake.AssemblyInfoInputs.cache
+C:\Users\Mlynář Matěj\Desktop\Škola\Programování\p. Janů\Snake\obj\Debug\net5.0\Snake.AssemblyInfo.cs
+C:\Users\Mlynář Matěj\Desktop\Škola\Programování\p. Janů\Snake\obj\Debug\net5.0\Snake.csproj.CoreCompileInputs.cache
+C:\Users\Mlynář Matěj\Desktop\Škola\Programování\p. Janů\Snake\obj\Debug\net5.0\Snake.dll
+C:\Users\Mlynář Matěj\Desktop\Škola\Programování\p. Janů\Snake\obj\Debug\net5.0\refint\Snake.dll
+C:\Users\Mlynář Matěj\Desktop\Škola\Programování\p. Janů\Snake\obj\Debug\net5.0\Snake.pdb
+C:\Users\Mlynář Matěj\Desktop\Škola\Programování\p. Janů\Snake\obj\Debug\net5.0\Snake.genruntimeconfig.cache
+C:\Users\Mlynář Matěj\Desktop\Škola\Programování\p. Janů\Snake\obj\Debug\net5.0\ref\Snake.dll
