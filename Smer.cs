@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Snake
 {
-    class Direction
+    public enum Smer
     {
+        Left, Right, Up, Down
     }
 }

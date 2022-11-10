@@ -1,56 +1,115 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Snake
 {
-    abstract class Tile
+    public abstract class Dlazdice
     {
-        public class Wall : Tile 
+        public virtual void Enter(Housenka housenka)
         {
-            private static Object _locker = new Object();
-            private static Wall _instance;
-            public static Wall Instance
-            {
-                get
-                {
-                    //double check pattern
-                    if (_instance != null)
-                        return _instance;
+        }
+    }
 
-                    //Only one thread allowed in lock
-                    lock (_locker)
-                        return _instance ?? (_instance = new Wall());
+    public class Zed : Dlazdice
+    {
+
+        private Zed()
+        {
+        }
+        public override string ToString()
+        {
+            return "X";
+        }
+
+
+
+        //private static Zed _instance;
+        //public static Zed Instance
+        //{
+        //    get
+        //    {
+
+        //        return _instance ?? (_instance = new Zed());
+        //    }
+        //}
+
+        private static Object _locker = new Object();
+
+        private static Zed _instance;
+        public static Zed Instance
+        {
+            get
+            {
+                //double check pattern
+                if (_instance != null)
+                    return _instance;
+
+                lock (_locker)
+                {
+                    if (_instance == null)
+                        _instance = new Zed();
+                    return _instance;
                 }
             }
-            private Wall()
+        }
+
+        public override void Enter(Housenka housenka)
+        {
+            housenka.Mrtva = true;
+        }
+
+       
+    }
+
+    public class Vzduch : Dlazdice
+    {
+
+        public override string ToString()
+        {
+            return " ";
+        }
+    }
+
+    public class Zeli : Dlazdice
+    {
+
+        public override string ToString()
+        {
+            return "*";
+        }
+
+        public override void Enter(Housenka housenka)
+        {
+            housenka.Growing += 1;
+            var krajina = housenka.Plocha;
+            krajina[housenka.Poloha] = new Vzduch();
+        }
+
+        public class MegaZeli : Zeli
+        {
+            public MegaZeli(byte kolikZeli = 5)
             {
-
+                KolikZeli = kolikZeli;
             }
-            public override string ToString() => "#";
-        }
 
-        public class Grass : Tile
-        {
-            private static Grass _instance;
-            public static Grass Instance
+            public byte KolikZeli { get; }
+
+
+            public override string ToString()
             {
-                get => _instance ?? (_instance = new Grass());
+                return "$";
             }
 
-            public override string ToString() => " ";
-        }
-
-        public class Food : Tile
-        {
-            public override string ToString() => "@";
-        }
-
-        public virtual void Enter(Snake snake)
-        {
-
+            public override void Enter(Housenka housenka)
+            {
+                housenka.Growing += KolikZeli;
+                var krajina = housenka.Plocha;
+                krajina[housenka.Poloha] = new Vzduch();
+            }
         }
     }
 }
